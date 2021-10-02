@@ -1,5 +1,4 @@
-# Personal-Project---Split-Bill-Calculator
-# Written in Python
+# Personal-Project --- Split-Bill-Calculator --- Language: Python
 
 Hi!
 
