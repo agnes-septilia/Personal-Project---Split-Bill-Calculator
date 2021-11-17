@@ -1,29 +1,20 @@
-# Personal-Project --- Split-Bill-Calculator --- Language: Python
+# Split Bill Calculator
 
-Hi!
+### INTRODUCTION
+This is a simple split bill calculator.
+The idea is based on my personal experience, when I'm hanging out with my friends.
+One person will pay the bill first, later on we split the bill and pay our portion.
 
-Now, since the github will act as my portfolio, I'm thinking to add some project on my early days with Python.
-We all start from very simple things, how to do calculation, manipulate string, etc.
-When learning these, one of the program that comes to my mind was Split Bill Calculator.
+### TECHNICAL
+Language: Python
 
-I have some bestfriends I usually hangout with, and usually one of the person will pay the meal first.
-Later, we calculate how much we have to pay our portion to that person.
-Basically, we use this split bill things quite often.
-Sure, it is far easier doing it by Ms. Excel, but now I need to practice, right?
+### HOW THE PROGRAM WORKS
+1. First we input the number of people
+2. Then input the tax and service charge percentage (only input the number)
+3. This is where the loop process started. Start by entering the first person name. Then enter what kind of meal / drink they have, and how much it's price; this can be done more than one meal. 
+4. To end the loop process, simply input name or meal/drink as "done".
+5. Finally, program will calculate how much bill each person has, included taxes.
 
-<<WHAT'S IN THE CODE?>>
-First, I made the code on my early coding stage, so don't expect very high-level syntax.
-At the time, I even didn't know how function works - eventhough now I'm thinking this would be more efficient to use.
-
-This code starts by asking the number of people, tax %, and service %.
-Then it asks input for person's name, what they eat/drink, and how much it will cost.
-Here, the menu-price will keep on loop, and add it to the subtotal.
-Once done, the result will show final amount that person have to pay.
-
-In the future, one of the syntax I want to add in this program is to count the shared food.
-This is because me and my friends tend to share the foods and divide the amount fairly.
-Also, I think it would be nice if I could make the output become table-like, not too wordy like recent code.
-If later I decided to upgrade the program, these will be the task I'm working on.
-Until then, let's keep this as it is.
-
-Cheers! ^^
+### NOTES
+1. In my country, some restaurants put service charge around 5 - 7.5%. This is calculated after (total + VAT) amount.
+2. Because the program only works for personal meal/drink, if any shared meal, then you have to put the average amount into the program.
