@@ -15,6 +15,10 @@ Language: Python
 4. To end the loop process, simply input name or meal/drink as "done".
 5. Finally, program will calculate how much bill each person has, included taxes.
 
+### VIDEO
+To check how the program works, you can click below link for the video demonstration:
+https://drive.google.com/file/d/1fTMQgXgC6FptrxZcVQ8Dp7LZh-piwTBq/view?usp=sharing
+
 ### NOTES
 1. In my country, some restaurants put service charge around 5 - 7.5%. This is calculated after (total + VAT) amount.
 2. Because the program only works for personal meal/drink, if any shared meal, then you have to put the average amount into the program.
